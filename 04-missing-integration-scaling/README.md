@@ -161,4 +161,4 @@ Iris - we don’t know how much differences between crystals or between model an
 
 Dan - should not be much variance
 
-Graeme - small molecule crystals don’t merge. Drops mic.
+Graeme - small molecule crystals don’t merge. Turns out after the event that this statement is wrong: some recent changes to DIALS mean that the data _can_ merge reasonably well and e.g. `multiplex` etc. can be used in a very similar way to their operation in biological crystallography. This is very helpful.
