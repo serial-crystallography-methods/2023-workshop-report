@@ -23,5 +23,5 @@ Top opened with a slide presenting the live feedback set-up at DESY / Petra III 
 
 Art opened with a recognition that he has worked on a similar system to the one presented by Tom, to give live feedback to the experiment, and agreed with Iris over the importance of this for the user in a serial experiment. It was also found to be useful for rotation data, to give an early indication of sample decay to the user [^2]. For both processing and live monitoring it is about optimisation, since we want to operate the detector at 100% capacity and have the analysis keep up. The faster the data collection, the less useful the user is in the data inspection process. There is a lot of room to optimise - a factor of five - which is not glamourous work but is essential to keeping up with increased data rates. Derek is also working on new methods. Do we need live processing? No, but we need some live analysis. We are in the process of developing a neural network to indentify when there are multiple lattices, since users can waste a lot of time on data which won't process - early red flags of great value.
 
-[^1] the stenographer appreciates this choice of language.
-[^2] GW commentary: we have had _per image analysis_ in place for a similar use case for several years at Diamond, but this does not attempt to index the data.
+[^1]: the stenographer appreciates this choice of language.
+[^2]: GW commentary: we have had _per image analysis_ in place for a similar use case for several years at Diamond, but this does not attempt to index the data.
