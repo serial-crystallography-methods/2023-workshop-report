@@ -39,7 +39,7 @@ Partiality modelling - have not much been working on - not working on model itse
 
 ### Art
 
-Working on similar project to the one Tom presented - live feedback for the experiment. Completely agree with Iris that this is one of the mos important things during a serial experiment. Also found out that this is useful for rotation data - users asked for it. Users want to know if the sample is dying in the beam, for example. For both processing and monitoring it’s about optimisation. Wanting to operate at 100% duty cycle frame rate - the faster this goes the less useful eyes and brains are - need to deliver simple live information so users can make choices. Not all of them need to be split-second.
+Working on similar project to the one Tom presented - live feedback for the experiment. Completely agree with Iris that this is one of the most important things during a serial experiment. Also found out that this is useful for rotation data - users asked for it. Users want to know if the sample is dying in the beam, for example. For both processing and monitoring it’s about optimisation. Wanting to operate at 100% duty cycle frame rate - the faster this goes the less useful eyes and brains are - need to deliver simple live information so users can make choices. Not all of them need to be split-second.
 
 Much room to optimise dials spot finder - can make it 5x faster - it is not glamorous but it is one of the key aspects toward coping with increased data rates. Derek working on new methods too. Do we need live processing? No, we need live analysis. Added a NN which detects multiple lattices. Users can waste a lot of time on useless data which won’t refine. Red flags needed to warn a user which may not break processing but indicates broken data.
 
