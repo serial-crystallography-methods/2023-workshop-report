@@ -1,10 +1,13 @@
 Transcript
 
 Moderator: Aaron Brewster
-Panelist
+
+Panelists:
 Graeme Winter
 Herbert J. Bernstein
 Asmit Bhowmick
+
+Note taker: David Mittan-Moreau
 
 Aaron B: Topic Aaron loves and enjoys
 Question: What are the challenges when depositing multi-modal data from serial experiments, such that the deposition aligns with fair principles?
