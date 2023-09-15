@@ -8,6 +8,7 @@ Workshop took place July 23rd-27th 2023 at Cornell University, hosted by [CHESS]
 
 TODO fill in attendees here:
 - Graeme Winter
+- Derek Mendez
 
 Others will follow as we have their permission to include them in the workshop report.
 
