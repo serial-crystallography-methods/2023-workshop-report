@@ -12,6 +12,8 @@ Robin Owen — DLS. Possible topics suggested by Jeney: beamline avail, nature o
 
 Artem Lyubimov — SSRL/SLAC, Aina Cohen’s group. Not just serial xtallog dev but also user — started as both, saw how field progressed over past decade from both perspectives. XFEL and SR methodologies appear to be beginning to converge. Began by bringing SR methods (esp gonio) to XFELs and XFEL methods (esp liquid jets) to SRs. SRs are getting faster, hotter, narrower beams; have performed jet expts at BL 12-1. “Mere” technological challenges are being successfully addressed and methods are converging. Nature of XFELs as lasers is going to remain different. Will be up to users to come up with amazing new uses of XFELs. Standardization and automation are important for scaling up, but being able to do fantastically unique and weird expts at XFELs is also core to their usefulness.
 
+## Discussion
+
 JW: as SR perspective, obs’d a lot more communication back and forth btwn SR/XFEL. XFELs are hot new thing, all the cool kids want to do it, but it’s great seeing community stitching back together and working in parallel, not in competition.
 
 GW: probably because cryoEM is the new new kid and we’re ganging up on them. JW: also alpahfold.
