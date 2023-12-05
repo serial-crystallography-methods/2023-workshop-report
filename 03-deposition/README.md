@@ -1,3 +1,5 @@
+# Synthesising data for deposition
+
 Transcript summarized by session note taker, David Mittan-Moreau
 
 New mandates from the US government will require the storage of data, consistent with FAIR principles, as part of funding requirements. This session sought to address the question of, what are the challenges when depositing multi-modal data from serial experiments, such that the deposition aligns with FAIR principles? The primary topics of discussion included, what is the purpose of archiving data? What constitutes “raw data”?  What are the barriers to deposition? How should multimodal data be deposited? And how can we structure data to best meet these needs?

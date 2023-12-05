@@ -1,3 +1,5 @@
+# What we can learn from chemical crystallography
+
 ## Opening statements
 
 Aaron opened with: The primary issue with small molecule crystallography is the limited number of Bragg reflection measured per pattern. Determining the orientation of each crystal using as few as 3 reflections per shot is a challenging task. Various methods exist (Brewster 2015??, SPIND Chufeng Li 2017???, PinkIndexer 2020) but all pose unique challenges. A recent paper demonstrating small molecule crystallography done at SACLA and LCLS made use of the CCTBX Sparse Indexer (Brewster 2015), and this paper demonstrated the ability to routinely do serial small molecule crystallography at an XFEL.

@@ -1,4 +1,6 @@
-# XFEL Sample Delivery (General/Intro)
+# What we are missing in methods for serial crystallography
+
+## XFEL Sample Delivery (General/Intro)
 
 Summrazyed by session notetaker, Elyse Schriber
 
@@ -16,12 +18,12 @@ Right now, SFX sample delivery is “Jets, Drives, and Fixed Targets,” where m
 
 The limited availability of hard X-ray XFEL facilities around the world (5 total) requires shipping of sensitive biological samples that can only be made in very small quantities, often requiring significant labor from the user group. Shipping can damage the samples, change them, or render them completely useless. The Center for Structural Dynamics in Biology, an NIH supported collaboration with LCLS and others, seeks to solve these problems. They are working on solutions to the logistics of sample shipping, especially international shipping where customs can be a damaging and time-consuming bottleneck.  They are also developing and improving methods to prepare the samples for shipment and determining the best methods to ship these types of samples without destroying them.
 
-# Synchrotron/Mix-and-Inject Operations/Hardware Development
+## Synchrotron/Mix-and-Inject Operations/Hardware Development
 
 In contrast to SFX at XFEL facilities, very little mix-and-inject hardware is bespoke at the SX beamline at CHESS. Many parts and hardware can also be attached and adapted to various beamline at synchrotrons and XFELs. Hardware standardization is not the main challenge, operating them successfully is the challenge and making on-the-fly changes/adjustments during the beamtime itself. If there is very little user support (expected at a synchrotron), this becomes very difficult or next to impossible for users without experience and training. The mixers used at CHESS are flow focus diffusive mixers (I would recommend CAD drawing/schematic/figure here). These mixers require microcrystals to trigger reactions via diffusion of small molecules. The smaller the crystal, the more likely it is that the reaction is triggered completely in each crystal, and there isn’t presence of unreacted species in the diffraction data. At BioCARs, mixing experiments can be be performed at a 10 Hz repetition rate using gas dynamic virtual nozzle (GDVN) type mixers. 
 What is missing from mixing experiments is pre-characterization and identification of the right samples and small molecules for the experiments. Is there characterization that is missing, i.e., finding the right solvent to solubilize the small molecules without destroying the biological sample. 
 
-# Needs for Sample Delivery
+## Needs for Sample Delivery
 
 Fixing some of the limitations in sample delivery and developing characterization and analysis methods for sample delivery systems is an active area of research and development. Outreach and documentation are a weakness that needs to be fixed. There is not enough documentation on the “why do a static serial crystallography experiment or a time-resolved experiment.” The user community seems to also only be aware of serial crystallography at XFELs and is not as aware of the opportunities and capabilities at the synchrotrons or how they can use them. Synchrotrons are also easier to access than XFELs and the energy barrier is lower, so more groups can be introduced to serial methods via synchrotrons. The general user community is also not aware of the various ways that samples can be manipulated and the types of sample delivery that can be employed. Beamline staff do participate in outreach with the user community, but they may need to adjust the way they interact with the user community. Figure out the best way to direct users to the right method for their sample needs or their experimental goals. There can be frustration from users who go and do a more complicated experiment because it is what was available to them, when there are easier options available.
 
@@ -41,12 +43,12 @@ What types of new science can be done with crystallography? Multi-dimensional ex
 
 Can we make time-resolved serial crystallography simpler? The clear path to simplifying TR-SX is to get users invested in static serial crystallography first, and then implement time-resolved studies into already existing experiments or use a method that can rapidly test conditions. LAMA can be used to screen TR-SX conditions like in-situ mixing and crystal kinetics from crystals with a poor size/diffraction ratio in a controlled environment. Exploiting existing high-throughput infrastructure makes the methods faster and more reliable. The more reliable and simple data collection becomes, the more complex the experimental goals become, like multi-temperature experiments. Most biological experiments are performed at room temperature (20-25°C) even though many interesting biological processes occur at physiological temperatures. Multi-temperature experiments under physiological conditions open new experimental possibilities. Specific humidity to improve diffraction quality, the ability to modulate enzyme kinetics, protein dynamics as a function of energy, experimental free energy landscape of enzyme catalysis, and experimental determination of rate-limiting steps.
 
-# Sample Delivery Challenges
+## Sample Delivery Challenges
 
 Important challenges to consider are to remain critical about the work itself, are the efforts made to perform the experiment worth the results that we get every time? Technical challenges include ensuring that users are informed of how much sample is necessary to complete their experiment, but also that crystals are not being wasted during sample preparation for the experiment. Sample loss can also occur during the experiment if pre-characterization of sample behavior is not tested before the beamtime, both ligand and the crystal slurry. This includes characterizing the sample delivery system behavior itself during the experiment to make sure the experiment is performing as planned. If you were to use a piezoelectric or acoustic droplet ejector, are the droplets ejecting well?  If the experiment is time-resolved is the timing accurate? In the case of XFEL, is the delivery of the crystals well synchronized to the delivery of the XFEL pulses. Is the experimental set up prone to introducing bias that produce false positive results? Many times, surprises occur at the beamtime that require changes the experiment on the fly, this can be a result of minor changes to the sample delivery installation and unknown changes at the facility that have profound effects on the quality of the experiment.
 At the XFEL, time pressure requires experiments to be as efficient as possible. The best-case scenario is that sample delivery is working as expected, the sample is diffracting, the real time feedback is working, and data processing is working well. This best-case scenario is the same for synchrotrons, with less time pressure because there are more synchrotrons and available beamtime.
 
-# User Questions and Comments
+## User Questions and Comments
 
 Users report that communication from staff and developers is a weak point for serial methods. The questions that developers then have for the user community is, do they want to be involved at all experiments or take a step back and allow developers and beamline staff run experiments primarily. In some cases, user involvement is necessary when the experiments become more complicated.
 
@@ -64,7 +66,7 @@ At the synchrotron, sample does not get wasted, as most of the microcrystals do 
 
 Why are samples that can produce crystals of 50 microns not being brought to a synchrotron? (Depends on experimental goals, time-resolved metalloprotein studies using XES require XFEL pulse duration). This opens up another line of questioning, if staff at beamlines are consulting users, and realize that there is a better sample delivery method available for the experimental goals or even a better X-ray source, should they send users towards that method or source?
 
-# Time-Resolved Experiments
+## Time-Resolved Experiments
 
 Fixed target experiments at the XFEL require a significant amount of time spent doing alignment. The cameras used to do the alignment are low resolution and the lighting in the chamber (vacuum or helium) is not great, in-line cameras would be better for alignment but building out specialized optics may not be feasible in certain beamline configurations. Then, there is the importance of beam position diagnostics to make sure that the XFEL beam is being tracked due to its intrinsic instability.
 
@@ -77,7 +79,7 @@ Time-resolved maps are blurry regardless of the error propagation in a multi-ste
 
 There should be a comprehensive comparison of mix and inject experiment at FEL vs synch. If electron density could be used as metric to determine if temporal resolution and pulse duration is really worth it, would that be useful to help users make informed decisions about what type of source they would use for a time-resolved experiment?
 
-# Sample Shipping
+## Sample Shipping
 
 Working with customs or having some sort of internal connection to customs agents would be useful. This ensures that samples are quickly transported to the facility before the experiment or to prevent sample degradation from occurring in improper conditions. This is especially relevant.
 

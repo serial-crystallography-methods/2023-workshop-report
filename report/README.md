@@ -4,7 +4,7 @@
 
 This is a report on workshop held at Cornell University, Ithaca, NY 17th-21st July 2023. The focus of the workshop was principally identifying the gaps between the methods which are in place today and what is needed to make serial crystallography a useful tool for the routine user, a task which will become increasingly important over the coming years, as the changes to the field brought about by developments such as alphafold (FIXME CITE) come to fruition.
 
-### Background: X-ray Crystallography
+### Background: X-ray Crystallography
 
 Over the past four decades X-ray crystallography of biological macromolecules has come to define the "gold standard" in structural biology. The ability to determine the configurations of proteins has brought about a revolution in medicine, allowing the functions of proteins to be understood on an atomic level and giving rise to the capability to design drugs based on this knowledge. The benefit to medicine of this technique is hard to overstate, and the development of methods behind X-ray crystallography continues to accelerate with the development of brighter sources, faster detectors and new experimental modalities, allowing for example screening of proteins against large numbers of small molecule fragments to steer the development of future drug candidates.
 
