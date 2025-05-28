@@ -216,6 +216,28 @@
 
 ### 06-learn-chemical-crystallography
 
+- indexing from small number of reflections reqs different approach than macromolecular xtallog
+	- long standing problem in small molecule, and much harder with stills
+	- several available methods with different strengths/weaknesses -- work well enough but much room for improvement
+- R-factor gap between serial and rotation very noticeable for small molecule (10-15% vs 3-5%)
+- capability to do serial small molecule at all is very exciting
+	- previously limited to powder diffraction
+	- aim for a "xtallog service" with mail-in samples for chem and matsci types of sample
+		- viable b/c they are much less sensitive than bio to env conditions once prepared
+		- samples can typically be prepared in large amts and are robust to much more rad damage, so can take advantage of higher frame rates than MX
+			- also often do cool things on very short time scales
+		- could accommodate many samples (potentially from many labs) in a single beam time
+		- accessibility of this should be strong driving factor for adoption of serial xtallog
+	- generally aim for 0.8 Angstrom resolution
+- further recent developments
+	- E-field, laser, gas initiated rxns for fixed target serial SR
+	- advancing detector technologies, enabling e.g. 10 ns time resolution between frames for single-pump, multi-probe expts
+	- small wedge serial has some advantages, some disadvantages compared to stills
+		- wedges mean longer expt duration
+		- higher hit rates and indexing rates when rotating through full spots
+	- hardware inherited from protein serial xtallog so far, but worth specializing some to small molecule serial at this point -- need grants for this
+- possibly extract some more points from Q&A section (mostly minor or standalone points)
+
 ### 07-modeling-photons
 
 - predicting still diffraction patterns not a solved problem
