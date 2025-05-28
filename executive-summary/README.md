@@ -161,18 +161,58 @@
 	- level of support from facilities
 		- at XFELs normally staff provide significant support during expt (exception: SACLA)
 		- lower to minimal staff involvement at SR expts, incl user independent and remote operation capabilities
+		- responsibility of facility staff to improve reliability and usability of sample delivery hardware, not users
+			- room for improvement with automation
+			- GUIs preferable to command line controls for e.g. timing, configs
+			- setup and tear down, alignment, config, etc. need improvements in accessibility and efficiency
+		- MFX operated autonomously (mail in data collection mode) during COVID -- lessons for using (dead) time efficiently and having fixed target samples ready as backup in case of failure with main sample
 	- very often the limiting factor in beam time success
-		- extra critical to be reliable because of scarcity of beam time
+		- extra critical to be reliable for XFELs because of scarcity of beam time (and potentially of sample itself)
 		- extra difficult for time-resolved experiments
+		- pre-expt testing for sample delivery is critical
+			- how to test as close as possible to beam time conditions can be a challenge
+			- determine optimal tradeoff between homogeneity and sample amt (e.g. sample loss by filtering)
+				- heterogeneous samples (sizes of microcrystals) can be problems for delivery but also for rxn initiation, limited by diffusion rate for mix-and-inject setups
 	- typical modes are jets, tape drives, and fixed targets
+		- make use of existing high throughput sample deliv infrastructure
+			- more reliable sample deliv allows room for more ambitious changes elsewhere in the expt design
+		- fixed target expts sink a lot of time into alignment and cameras for this are not great
 		- options vary by beamline and facility, and vary in suitability to a given experiment
-		- LCLS prioritizes providing many options incl supporting user-designed and -built systems, and allows customization of beamline setup to accommodate
-		- acoustic droplet ejection an emerging and promising alternative
+			- standardized, reliable hardware available for mix-and-inject at CHESS
+			- BioCARS can do 10 Hz rep rate mix-and-inject expts with GDVN
+			- LCLS prioritizes providing many options incl supporting user-designed and -built systems, and allows customization of beamline setup to accommodate
 		- standardization desired but may be at odds with adaptability to new expt designs
+			- not at scale to outsource most of this stuff to companies and mass produce
+	- new types of experiments
+		- acoustic droplet ejection an emerging and promising alternative
+		- LAMA mixing method for expts on very fast time scales
+		- journal Frontiers in Struct Bio highlights many cases of new expt capabilities by virtue of beamline and light source upgrades (not entirely sure where/if this point fits)
+		- multidimensional expts (incl varying env conditions like temp, pressure, pH, E field)
+		- multimodal expts (esp SX + spetroscopy, but also NMR, MD, QM/MM, EM)
+		- control sample env closer to physiological: temp, humidity
+	- shipping samples to facility is also source of problems
+		- esp for samples prepared in only very small amounts
+		- esp for samples that are easily damaged in transit
+			- SSRL has specialized container to limit this -- temp controlled and compatible with standard microplates for fixed target among other methods, also can be used at MFX
+		- things also get held up at customs, damaged, lost, or destroyed by courriers
+			- some kind of connection with customs agents would be helpful for avoiding these predictable problems and unnecessary sample degradation/destruction
+			- must ship samples early enough to ensure they arrive on time
+			- if samples can't survive shipping (or survive only a very short time), prepare on site instead
+				- possible compromise: ship seeds and crystallize from seeds on site
+		- Ctr for Struct Dynamics in Biology (NIH supported collab) working on this problem
 - repetition rate
 	- XFEL upgrades such as LCLS-II to kHz may not be useful for (bio) xtallog
 		- more useful for small molecule and chemical xtallog w/ no sample bottleneck
 - outreach and documentation
+	- must address the "decision tree" of choosing expt design to match scientific question, and make clear the use cases for serial SR xtallog
+		- general user community not fully aware of all options available (incl sample deliv)
+		- both outreach and routine participation of beamline staff in expts should address this better
+		- would it be possible to compare hypothetical electron densities achievable by SR vs XFEL with a sufficiently comprehensive comparison of results by these methods so far? could help users choose most appropriate method for an expt
+	- serial at SR should be leveraged as a low barrier entry point for introducing new rschrs to serial xtallog, even if they eventually need XFEL time
+	- users should be introduced to static serial xtallog before time resolved (and this should dovetail with stepwise increasing expt complexity)
+	- users should understand sample consumption for the sample deliv methods they use, incl how to ensure sample is used effectively during expt
+	- feedback systems necessary on sample delivery as well (are droplets ejecting, are timings aligned, are there xtals in droplets, etc)
+	- users report communication from beamline staff and method developers is a weak point for serial
 
 ### 06-learn-chemical-crystallography
 
