@@ -328,4 +328,4 @@ Accurate interpretation of what intensity to extract from each Bragg peak on ser
 
 ### 08-stopping-publishing
 
-NO TEXT ON GITHUB
+See 08-stopping-publishing/OUTLINE.md for Jeney's outline
