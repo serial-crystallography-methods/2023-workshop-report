@@ -51,6 +51,15 @@ The other major concern raised was the inadequate outreach and documentation ava
 
 ## Lessons from small molecule crystallography
 
+Applying serial methods to small molecule crystallography is increasingly feasible, but not without obstacles. R-factors remain significantly higher—often by 10%—compared to traditional rotation methods, and indexing success is still limited, with only a small fraction of hits yielding usable data. These issues are even more pronounced in small molecule experiments than in macromolecular ones. While current software “works,” modeling at high resolution could benefit from more accurate indexing tools, and better hardware integration would reduce data loss and inefficiencies.
+
+Several strategies for improvement were discussed. Small-wedge serial methods, which introduce limited rotation, can bring more reflections into the detector field and improve hit rates, though they come at the cost of longer experiment times. Adapting these methods for synchrotron use—where beamtime is more accessible—seems particularly promising. On the infrastructure side, much of the hardware used so far was originally built for protein crystallography. While it has been adapted for small molecules to some extent, dedicated hardware development is warranted, and funding for this would help address persistent technical gaps.
+
+Despite the current limitations, the potential value of small molecule serial crystallography is clear. These samples are typically produced in large quantities, are more resistant to radiation damage, and often undergo fast structural changes on the femtosecond to picosecond timescale—well matched to the capabilities of high-frame-rate XFELs. For fields like materials science and synthetic chemistry, serial methods could offer new insights that go well beyond what powder diffraction or traditional single-crystal techniques allow.
+
+For serial crystallography to gain wider traction in these communities, there is strong interest in a service-based model. A mail-in system—where researchers ship batches of samples and receive refined structures in return—could lower the barrier to entry and make the method more practical for non-specialists. While such a service would not resolve all technical issues, it would make the workflow more accessible and consistent, paving the way for routine use.
+
+
 ## Improving on the diffraction experiment model
 
 ## Barriers to publishing results
