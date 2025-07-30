@@ -57,10 +57,17 @@ Despite the current limitations, the potential value of small molecule serial cr
 
 For serial crystallography to gain wider traction in these communities, there is strong interest in a service-based model. A mail-in system—where researchers ship batches of samples and receive refined structures in return—could lower the barrier to entry and make the method more practical for non-specialists. While such a service would not resolve all technical issues, it would make the workflow more accessible and consistent, paving the way for routine use.
 
-
 ## Improving on the diffraction experiment model
 
-GW to add.
+Modelling diffraction experiments for monochromatic rotation data is very well established, with a multi-decade history of very effective data processing packages. With still shot crystallography, particularly from X-FEL sources with a SASE spectrum, the methods are substantially less mature: simply predicting the reflections for still shot data is as yet an unsolved problem, though a lot of tools are available which are working towards a solution.
+
+In the general sense, finding the spots and assigning Miller indices may use without modification the methods from rotation crystallography. To take the initial indexing solution and refine the crystal and experimental geometry, however, requires a method to take the model and derive the calculated spot locations: this prediction problem impacts both the calculation of the spot locations on the image and the "fraction" of the spot which is expected, given the wavelength distribution, sample orientation, mosaicity and experimental geometry. The challenge of improving the model is further impeded by the frequent need to refine not only the detector position but also the relative positions of sub-detector regions (modules and ASIC positions).
+
+A range of methods were presented in the workshop, with some based on first-principles simulation of the X-ray interaction with crystalline matter looking promising. Others were shown to be effective in some situations but not universally applicable. Proposals were made for e.g. ML based methods as are currently being explored for scaling (the so-called "careless" approach) which may be promising. During the workshop it was also noted that the methods which should improve the data through postrefinement do not, again, universally improve the results and may make the quality of the averaged data worse: in particular, good data sets were sometimes helped but poorer data sets made worse, suggesting that the deviation from perfection more greatly exposed the failure to accurately model.
+
+There was also discussion of how to assess the model quality: Rsplit which compares randomly assigned half-sets currently dominates, though the use of more conventional metrics e.g. CC1/2 was discussed. Non-computational methods for addressing the problems, for example use use of wider bandwidth radiation, was also discussed. Finally, the approach to modelling the peak vs. background of the reflection was considered, with the method from CrystFEL of defining annular regions around the spot considered to be particularly robust.
+
+In many senses this area was identified as one of the computational areas most in need of improvement. It is also clear that many of the issues which impede prediction for biological crystallography could potentially be worse for chemical crystallography, due to the increased sparseness of the data.
 
 ## Barriers to publishing results
 
