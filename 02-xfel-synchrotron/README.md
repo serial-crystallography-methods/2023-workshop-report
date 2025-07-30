@@ -2,10 +2,6 @@
 
 Derived from the [raw transcript](./TRANSCRIPT.md) captured by Iris Young during the discussion.
 
-## Observations
-
-TBD
-
 ## Panel
 
 - Jeney Wierman
