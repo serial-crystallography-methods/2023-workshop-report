@@ -60,7 +60,11 @@ For serial crystallography to gain wider traction in these communities, there is
 
 ## Improving on the diffraction experiment model
 
+GW to add.
+
 ## Barriers to publishing results
+
+JLW to add.
 
 # Notes by section
 
