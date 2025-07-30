@@ -12,13 +12,16 @@ In pump-probe studies a striking feature is the wide range of possible pump sign
 
 Regarding "why not serial", the three biggest obstacles are (1) the difficult learning curve, (2) the limited availability of XFEL experimental time, and (3) the major time commitment to prepare samples and perform the experiment. Following are some comments about each of these obstacles.
 
-# The learning curve: 
+# The Learning Curve
+
 A concerted effort is required for training and documentation at all stages of the serial experiment: Especially crystal growth, sample delivery, data processing. Users are requesting documentation for very basic tasks; developers are not necessarily aware what's difficult for inexperienced users. Youtube videos were suggested as a convenient avenue for low-level tutorials; developer-written documentation is often not on the right level for new users. Some comments emphasized the importance of onsite experience for training purposes; remote-access experiments can be convenient for other reasons but they are not a good venue for training new users. Another prominent topic was that standardization is important for reducing the learning curve and therefore it can be an important approach for increasing overall adoption. Standardization is discussed further below. Finally it is also important for developers to visit experiments and talk with users to gain awareness of how the tools are used in practice and where the challenges are.
 
-# Limited availability: 
+# Limited Availability
+
 This is an intrinsic problem of XFEL radiation when only 5 facilities exist in the world, but synchrotron serial diffraction is a viable alternative, while remembering the known caveats on crystal size and time resolution. The wider adoption of synchrotron serial methods where suitable, especially for screening and method development, would benefit the whole serial community by reducing the competition for XFEL time and pressure to produce results.
 
-# Time commitment and difficulty for performing these experiments: 
+# Time Commitment and Experimental Difficulty
+
 In part there is a problem of communication and messaging where the stories from the early XFEL days have created an inordinately scary reputation. However of course the reputation of large sample requirements and hectic beamtimes also contains a lot of truth. A few points need to be clear to the community: 100 mg is usually sufficient, crystals do not need to be individually harvested. And one important point for developers: The user does not want to become an expert in sample delivery, or data processing, or beamline operation. Sometimes the need for user expertise is unavoidable, but the discussion on reducing the barrier to entry is basically synonymous with reducing the number of fields in which the user must become an expert.
 
 It was noted that for the range of user experience levels, the developer community needs a corresponding range of approaches to improve accessibility. For inexperienced users and small groups, it is important to provide a manageable learning curve as discussed above, but another tool could be promoting and incentivizing collaborations between new and established XFEL users. Serial crystallography is very unapproachable for new groups working alone, but participating in the full process as a collaborator is the most valuable learning experience. For existing experienced users, accessibility considerations include remote-access experiments and quick availability of screening time for early-stage development of new samples. However, as mentioned above, the remote-access concept should not be overused because of reduced opportunities for user engagement and training.
