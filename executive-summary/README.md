@@ -71,7 +71,21 @@ In many senses this area was identified as one of the computational areas most i
 
 ## Barriers to publishing results
 
-JLW to add.
+This session, _"What is Stopping Us from Publishing?"_ explored why results from serial macromolecular crystallography (SMX) are often slow to reach publication. Despite increasing sophistication and the unique advantages of SMX, many datasets remain unpublished due to a combination of technical, logistical, and cultural challenges.
+
+**Data complexity and lack of standard validation metrics** were cited as major contributors. Researchers frequently encounter uncertainty around when their analysis is "done," leading to stalled manuscripts and abandoned datasets. The absence of universally accepted benchmarks or reporting norms compounds this issue, particularly for those newer to the field.
+
+**Collaboration logistics** also slow progress. SMX experiments often involve multiple institutions and rely heavily on method developers for experimental setup and data analysis. This dependence creates bottlenecks and complicates authorship and project coordination.
+
+**Proposal pressure and beamtime scarcity** further exacerbate the problem. The highly competitive nature of XFEL access leads researchers to design ambitious experiments that may result in partial or inconclusive data, which can feel difficult to justify in traditional publication formats.
+
+**Technical limitations**—including sample delivery inconsistencies, limited real-time feedback, and instrumentation instability—frequently produce large datasets that are difficult to interpret or ultimately unusable.
+
+In addition, **cultural factors** play a role. Peer review of SMX studies is often slow, and there remains skepticism toward methods that diverge from traditional crystallographic norms. There is a persistent perception that only "high-impact" findings are worth publishing, which discourages transparency and the dissemination of incremental or negative results.
+
+The panel emphasized several paths forward: the development of shared validation metrics and best practices; increased user support and training; broader adoption of campaign-style beamtime allocations; more integration with synchrotron facilities for early-stage screening; and a shift in cultural expectations toward open, transparent, and collaborative science. Framing SMX as a continually evolving technique—rather than a solved or "mature" one—will also be critical for sustained investment and visibility.
+
+The discussion concluded on a cautiously optimistic note: the barriers to publishing in SMX are real but not insurmountable. Through collective effort, cultural change, and investment in both infrastructure and people, the field can support more timely and inclusive dissemination of results.
 
 # Notes by section
 
